@@ -1,0 +1,123 @@
+.footer{
+    background-color: black;
+   color: grey;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-me{
+    width: 100%;
+    max-width: 650px;
+    text-align: justify;
+  
+}
+
+.quick-links li {
+list-style: none;
+margin-block:10px;
+}
+
+.nav-item{
+   
+    text-decoration: none;
+   color: gainsboro;
+}
+a:hover{
+    color: deeppink;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+}
+.about-des{
+    padding-left: 10px;
+    color: lemonchiffon;
+}
+@media  (max-width:768px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    .social-media{
+        display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+   
+    }
+}
+.cards {
+    width: fit-content;
+    height: fit-content;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: 0.3s;
+  }
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: 0.3s;
+  }
+  .containerTwo:hover {
+    background-color: gre;
+    color: black;
+    transition-duration: 0.3s;
+  }
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: 0.3s;
+  }
+
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+    
