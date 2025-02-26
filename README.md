@@ -1,4 +1,4 @@
-# 📰 News App using HTML, CSS, JavaScript & News API
+# 📰 News App
 
 ## 🚀 How to Run?
 
