@@ -12,30 +12,48 @@ git clone https://github.com/
 cd News-App
 ```
 
-#### 2️⃣ Open the Project
-
-Simply open the `index.html` file in a browser.
+#### 2️⃣ Open the Project in a Browser
+Since this project is built using HTML, CSS, and JavaScript, you can directly open the `index.html` file in your browser.
 
 #### 3️⃣ Setup API Key
-Create a `.env` file in the root directory and add your News API key:
+This project uses the **News API**. Obtain an API key from [NewsAPI](https://newsapi.org/) and replace it in the `config.js` file:
 
-```ini
-NEWS_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```js
+const API_KEY = "your_api_key_here";
 ```
 
-Alternatively, replace `YOUR_API_KEY` in the JavaScript file with your News API key.
+#### 4️⃣ Run a Local Server (Optional)
+For better performance, you can run a local server using Python:
 
-#### 4️⃣ Features
+```bash
+# For Python 3.x:
+python -m http.server 8000
+```
 
-- 📢 **Real-Time News** - Fetches the latest news dynamically.
-- 🔍 **Search News** - Allows users to search for specific topics.
-- 🏆 **Multiple Categories** - Includes categories like Business, Technology, Sports, and more.
-- 🎨 **Smooth UI** - User-friendly and visually appealing interface.
-- ⚡ **Fast & Responsive** - Optimized for a seamless experience.
+Then open `http://localhost:8000` in your browser.
 
-#### 5️⃣ Run the Application
+#### 5️⃣ Screenshots 📸
+Include screenshots of the app interface:
+- Homepage
+- Search Results
+- Category Selection
 
-Simply open `index.html` in a web browser, and you're good to go!
+Add screenshots in the `screenshots/` folder and link them in the README:
+
+```md
+![Screenshot 2025-02-26 185843](https://github.com/user-attachments/assets/a2fbf701-0f02-4997-8f85-f9ba92992d50)
+
+```
+
+---
+
+## 🌟 Features
+
+✅ **Real-Time News Fetching** 📢
+✅ **Search News by Keywords** 🔍
+✅ **Smooth and Responsive UI** 🎨
+✅ **Multiple News Categories** 🗂️
+✅ **Easy Navigation and User-Friendly Design** 🏆
 
 ---
 
@@ -47,4 +65,3 @@ Simply open `index.html` in a web browser, and you're good to go!
 - 📰 **News API**
 
 📢 **Contributions & Issues:** Feel free to open an issue or submit a pull request. 🚀
-
