@@ -37,13 +37,8 @@ Include screenshots of the app interface:
 - Homepage
 - Search Results
 - Category Selection
+![Screenshot 2025-02-26 185843](https://github.com/user-attachments/assets/277bb8f5-bc49-422e-9971-449c78bbeb83)
 
-Add screenshots in the `screenshots/` folder and link them in the README:
-
-```md
-![Screenshot 2025-02-26 185843](https://github.com/user-attachments/assets/a2fbf701-0f02-4997-8f85-f9ba92992d50)
-
-```
 
 ---
 
